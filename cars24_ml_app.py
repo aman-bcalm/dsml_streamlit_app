@@ -4,7 +4,7 @@ import datetime
 import pickle 
 
 
-cars_df = pd.read_excel("cars24-car-price.xlsx")
+cars_df = pd.read_csv("cars24-car-price.csv")
 
 st.write("""
 # Cars24 Used Car Price Prediction
